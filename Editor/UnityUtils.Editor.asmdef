@@ -1,0 +1,16 @@
+{
+    "name": "UnityUtils.Editor",
+    "rootNamespace": "UnityUtils",
+    "references": [
+        "GUID:bbb107a0716624245893629f68aea208"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

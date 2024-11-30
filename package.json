@@ -1,0 +1,19 @@
+{
+  "name": "com.justgif.utils",
+  "version": "0.1.0",
+  "displayName": "Unity Utils",
+  "description": "Provides a collection of utility functions for common tasks.",
+  "unity": "6000.0",
+  "author": {
+    "name": "JustGif",
+    "url": "https://github.com/justgif"
+  },
+  "changelogUrl": "https://github.com/justgif/Unity-Utils/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://github.com/justgif/Unity-Utils/blob/main/README.md",
+  "keywords": [
+    "utils",
+    "utility"
+  ],
+  "license": "MIT",
+  "licensesUrl": "https://github.com/justgif/Unity-Utils/blob/main/LICENSE.md"
+}
