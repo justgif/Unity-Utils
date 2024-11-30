@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `[MethodButton]` attribute to invoke class methods from clickable buttons in the inspector
+- `[MethodHeader]` attribute to organize method buttons in the inspector
+
 ### Changed
 
 ### Deprecated
