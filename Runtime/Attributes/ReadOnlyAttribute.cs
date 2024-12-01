@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace UnityUtils.Attributes
+namespace Utils.Attributes
 {
     /// <summary>
     /// Makes a field read-only in the inspector, but still editable in code.

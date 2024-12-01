@@ -1,7 +1,9 @@
 {
-    "name": "UnityUtils",
-    "rootNamespace": "UnityUtils",
-    "references": [],
+    "name": "Utils.Editor",
+    "rootNamespace": "Utils",
+    "references": [
+        "GUID:bbb107a0716624245893629f68aea208"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

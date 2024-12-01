@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace UnityUtils.Attributes
+namespace Utils.Attributes
 {
     /// <summary>
     /// Adds a button in the inspector that invokes the attached method when clicked.

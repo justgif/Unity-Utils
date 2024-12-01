@@ -1,8 +1,8 @@
 {
   "name": "com.justgif.utils",
-  "version": "0.1.0",
-  "displayName": "Unity Utils",
-  "description": "Provides a collection of utility functions for common tasks.",
+  "version": "0.2.0",
+  "displayName": "Utils",
+  "description": "Provides a collection of utility functions and useful features.",
   "unity": "6000.0",
   "author": {
     "name": "JustGif",

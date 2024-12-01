@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace UnityUtils.Attributes
+namespace Utils.Attributes
 {
     /// <summary>
     /// Adds a header above a <see cref="MethodButtonAttribute"/> in the inspector.

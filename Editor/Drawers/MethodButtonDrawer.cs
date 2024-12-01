@@ -1,9 +1,9 @@
 using System.Reflection;
 using UnityEditor;
 using UnityEngine;
-using UnityUtils.Attributes;
+using Utils.Attributes;
 
-namespace UnityUtils.Editor.Drawers
+namespace Utils.Editor.Drawers
 {
     [CustomEditor(typeof(MonoBehaviour), true)]
     public class MethodButtonDrawer : UnityEditor.Editor
