@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Utils.Singleton
 {
@@ -12,8 +13,10 @@ namespace Utils.Singleton
 
         private static T s_Instance;
         
+        [Header("Singleton Settings")]
+        
         [SerializeField, Tooltip("Whether the singleton instance should persist between scene loading.")]
-        private bool m_Persistent = true;
+        private bool m_Persistent;
         
         public static T Instance
         {
@@ -40,11 +43,32 @@ namespace Utils.Singleton
         /// Whether an instance of the singleton currently exists.
         /// </summary>
         public static bool HasInstance => s_Instance != null;
-        
+
         /// <summary>
         /// Whether the singleton instance should persist between scene loading.
         /// </summary>
-        public bool Persistent => m_Persistent;
+        public bool Persistent
+        {
+            set
+            {
+                m_Persistent = value;
+                Debug.Log($"{k_DebugPrefix}: Set persistence of {GetType()} to {m_Persistent}.");
+                
+                if (!Application.isPlaying)
+                    return;
+                
+                if (m_Persistent)
+                {
+                    transform.SetParent(null);
+                    DontDestroyOnLoad(gameObject);
+                }
+                else
+                {
+                    SceneManager.MoveGameObjectToScene(gameObject, SceneManager.GetActiveScene());
+                }
+            }
+            get => m_Persistent;
+        }
         
         protected virtual void Awake()
         {
@@ -64,7 +88,7 @@ namespace Utils.Singleton
             }
             else
             {
-                Debug.LogWarning($"{k_DebugPrefix}: An instance of {GetType()} already exists. Destroying this instance.");
+                Debug.LogWarning($"{k_DebugPrefix}: An instance of {GetType()} already exists. Destroying {name}.");
                 Destroy(gameObject);
             }
         }
