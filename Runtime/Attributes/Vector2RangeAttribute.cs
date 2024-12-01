@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace UnityUtils.Attributes
+namespace Utils.Attributes
 {
     /// <summary>
     /// Define a <see cref="Vector2"/> or <see cref="Vector2Int"/> field as a min-max range and displays it as a slider in the inspector.

@@ -1,8 +1,8 @@
 using UnityEditor;
 using UnityEngine;
-using UnityUtils.Attributes;
+using Utils.Attributes;
 
-namespace UnityUtils.Editor.Drawers
+namespace Utils.Editor.Drawers
 {
     [CustomPropertyDrawer(typeof(Vector2RangeAttribute))]
     public class Vector2RangeDrawer : PropertyDrawer

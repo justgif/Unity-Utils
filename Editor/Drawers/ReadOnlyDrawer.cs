@@ -1,8 +1,8 @@
 using UnityEditor;
 using UnityEngine;
-using UnityUtils.Attributes;
+using Utils.Attributes;
 
-namespace UnityUtils.Editor.Drawers
+namespace Utils.Editor.Drawers
 {
     [CustomPropertyDrawer(typeof(ReadOnlyAttribute))]
     public class ReadOnlyDrawer : PropertyDrawer
