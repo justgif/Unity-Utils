@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Several extension methods for the following types:
+    - Enumerable
+    - Enumerator
+    - Float
+    - GameObject
+    - Int
+    - LayerMask
+    - List
+    - Object
+    - String
+    - Transform
+    - Vector2
+    - Vector3
+
 ### Changed
 
 - Modified package name and root namespace from `UnityUtils` to `Utils`
