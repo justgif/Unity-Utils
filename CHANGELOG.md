@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `[MethodButton]` attribute to invoke class methods from clickable buttons in the inspector
 - `[MethodHeader]` attribute to organize method buttons in the inspector
 - `[ReadOnly]` attribute to disable editing of serialized fields in the inspector, while preserving editing through code
+- `[Vector2Range]` attribute to convert `Vector2` and `Vector2Int` types into min-max ranges that a drawn as sliders in the inspector
 
 ### Changed
 
