@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using System.Reflection;
 using UnityEditor;
 using UnityEngine;
@@ -52,3 +54,5 @@ namespace Utils.Editor.Drawers
         }
     }
 }
+
+#endif
