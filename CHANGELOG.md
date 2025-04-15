@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Fixed an issue where Editor scripts would produce build errors
+- Fixed an issue where Editor scripts produced errors when building a project
 
 ## [0.3.2] - 2024-12-16
 
@@ -39,19 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Several extension methods for the following types:
-    - Enumerable
-    - Enumerator
-    - Float
-    - GameObject
-    - Int
-    - LayerMask
-    - List
-    - Object
-    - String
-    - Transform
-    - Vector2
-    - Vector3
+- Extension methods for several Unity types and built-in C# types
 
 ### Changed
 
